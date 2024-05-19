@@ -61,7 +61,7 @@ header {
     display: flex;
     align-items: center;
     gap: 7em;
-    padding: 30px 12% 0;
+    padding: 30px 100px 0;
     
 }
 .content{
@@ -72,7 +72,7 @@ header {
     line-height: 1.5;
 }
 span{
-    color: aqua;
+    color: rgb(192, 11, 11);
 }
 .content p{
     font-size: 18px;
@@ -102,7 +102,16 @@ span{
     cursor: pointer;
     font-size: medium;
 }
-.img-1{
-    width:1px;
+.image-container{
+    width:600px;
+    height:250px;
+    float:right;
+    padding:2px 50px 50px;
+}
+.image-container img{
+    max-width:100%;
+    height:auto;
+    border-radius:5px;
+    box-shadow: 0 0 18px rgb(192, 11, 11);
 }
 
